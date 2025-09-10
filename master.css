@@ -1,0 +1,69 @@
+ body{
+  margin: 0;
+  padding: 0;
+  background-image: url("flow.jpeg");
+  background-size:cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.2);
+   backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 300px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 15px;
+}
+
+.login-form .remember {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  margin: 10px 0 ;
+  color: #000;
+  font-size: 14px;
+  gap: 5px;
+}
+
+.login-form a {
+  display: block;
+  margin: 10px 0;
+  color: #000;
+  text-decoration: none;
+}
+a:hover{
+  background-color:khaki;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #eee;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
